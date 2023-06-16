@@ -118,5 +118,12 @@ let multiple = (num: number): number => {
     return num * 2;
 }
 
+let multiple = (num: number): void => {
+    // return num * 2; do something but dont return anything hence void
+}
+
+let sum = ()
+
+
 
 
