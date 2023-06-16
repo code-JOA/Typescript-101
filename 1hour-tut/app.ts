@@ -70,9 +70,9 @@ userObj = {
 }
 
 let userObj2: {
-  username: string;
-  age: number;
-  isAdmin: boolean;
+    username: string;
+    age: number;
+    isAdmin: boolean;
   // here we want to say phone is not required
   phone?:string
 };
