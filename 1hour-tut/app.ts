@@ -187,4 +187,12 @@ interface IEmployee extends IUser{
 const emp: IEmployee = {
     username: "josh",
     email: "josh@gmail.com",
+    age : 25,
+    employeeId: 1,
+};
+
+const client: IUser = {
+    username: "josh",
+    email: "josh@gmail.com",
+    
 }
