@@ -75,7 +75,7 @@ let userObj2: {
     age: number;
     isAdmin: boolean;
   // here we want to say phone is not required
-    phone?:string;
+    phone?:string
 };
 
 userObj2={
@@ -220,14 +220,14 @@ interface IPostBetter {
     id: number;
     title: string;
     desc: string;
-    extra: T[]
+    extra: T[];
 }
 
 const testMe: IPostBetter<String> = {
     id: 1,
     title: "post title"
     desc: "post desc"
-    extra: ["str"]
+    extra: ["str","str2"],
 }
 
 
