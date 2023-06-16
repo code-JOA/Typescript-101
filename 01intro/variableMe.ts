@@ -1,4 +1,4 @@
-let greetings: string = "Hello Hitesh";
+let greetings: string = "Hello joshua";
 
 greetings.toLowerCase()
 console.log(greetings);
@@ -8,7 +8,7 @@ console.log(greetings);
 let userId = 334455.3
 
 userId.toFixed()
-// userId = "hitesh"
+// userId = "joshua"
 // boolean
 let isLoggedIn: boolean = false
 
