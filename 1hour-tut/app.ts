@@ -194,5 +194,18 @@ const emp: IEmployee = {
 const client: IUser = {
     username: "josh",
     email: "josh@gmail.com",
-    
+    age: 43,
+};
+
+//  generics
+
+interface
+
+interface IPost{
+    id: number;
+    title: string;
+    desc: string;
+    extra
 }
+
+
