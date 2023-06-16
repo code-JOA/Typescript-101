@@ -122,7 +122,10 @@ let multiple = (num: number): void => {
     // return num * 2; do something but dont return anything hence void
 }
 
-let sum = ()
+//  so here we are saying add two numbers and return another number
+let sum = (num1: number, num2: number): number => {
+    return num1 + num2;
+}
 
 
 
