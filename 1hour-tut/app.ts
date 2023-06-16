@@ -6,14 +6,14 @@ let age = 18
 
 let agewithtype :  number;
 
-agewithtype = 'eighteen'
+// agewithtype = 'eighteen'
 
 agewithtype = 18
 
-let testString : string ;
+let testString : string 
 testString = "hello"
 
-let testBoolean : boolean ;
+let testBoolean : boolean 
 testBoolean = true
 
 // union
