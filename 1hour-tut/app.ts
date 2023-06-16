@@ -118,7 +118,7 @@ let multiple = (num: number): number => {
     return num * 2;
 }
 
-let multiple = (num: number): void => {
+let multiple2 = (num: number): void => {
     // return num * 2; do something but dont return anything hence void
 }
 
@@ -135,7 +135,7 @@ sum2(2,4)
 
 let func = (user:{username: string, age:number, phone?:string}) => [
     console.log(user.username), 
-]
+];
 
 
 
