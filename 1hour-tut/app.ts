@@ -75,12 +75,12 @@ let userObj2: {
     age: number;
     isAdmin: boolean;
   // here we want to say phone is not required
-    phone?:string
+    phone?:string;
 };
 
 userObj2={
     username: 'giulia';
     age: 23;
     isAdmin: false;
-    phone: '+123456'
+    phone: '+123456';
 }
