@@ -104,7 +104,7 @@ let sayHi = () => {
     console.log("Hi, welcome")
 }
 
-let functionreturnString = () => {
+let functionReturnString = () => {
     // console.log("Hi")  note functions must always return something
     return "Hello"
 }
@@ -126,7 +126,12 @@ let multiple = (num: number): void => {
 let sum = (num1: number, num2: number): number => {
     return num1 + num2;
 }
+sum(2,4)
 
+let sum2 = (num1: number, num2: number, another: number => {
+    return num1 + num2;
+}
+sum(2,4)
 
 
 
