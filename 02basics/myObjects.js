@@ -1,15 +1,15 @@
 "use strict";
 // const User = {
-//     name: "hitesh",
-//     email: "hitesh@lco.dev",
+//     name: "joshua",
+//     email: "josh_billion@yahoo.com",
 //     isAvtive: true
 // }
 exports.__esModule = true;
 var myUser = {
     _id: "1245",
-    name: "h",
-    email: "h@h.com",
+    name: "j",
+    email: "j@j.com",
     isActive: false
 };
-myUser.email = "h@gmail.com";
+myUser.email = "j@gmail.com";
 myUser._id = "asa";
