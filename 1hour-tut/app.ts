@@ -223,7 +223,13 @@ interface IPostBetter {
     extra: T[]
 }
 
-const testMe: IPostBetter<String>= {}
+const testMe: IPostBetter<String> = {
+    id: 1,
+    title: "post title"
+    desc: "post desc"
+}
+
+
 
 
 
