@@ -4,11 +4,11 @@ variable = 'hi'
 
 let age = 18 
 
-let agewithtype :  number;
+let ageWithType :  number;
 
 // agewithtype = 'eighteen'
 
-agewithtype = 18
+agewithType = 18
 
 let testString : string 
 testString = "hello"
@@ -41,4 +41,5 @@ let testNumberArray : number[]
 // testNumberArray = [true, 'hi' , 23]
 testNumberArray = [12,13,14]
 
-let testStringNumberArray : string | number []
+let testStringNumberArray : (string | number)[]
+testStringNumberArray = [1, 'two', 3]
