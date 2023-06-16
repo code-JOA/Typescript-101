@@ -36,12 +36,12 @@ heros.map((hero): string => {
 })
 
 
-function consoleError(errmsg: string): void{
-    console.log(errmsg);
+function consoleError(errormsg: string): void{
+    console.log(errormsg);
     
 }
-function handleError(errmsg: string): never{
-    throw new Error(errmsg);
+function handleError(errormsg: string): never{
+    throw new Error(errormsg);
     
 }
 
