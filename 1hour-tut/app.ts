@@ -162,5 +162,6 @@ type userType2 = {
     username: string;
     age: number;
     phone?: string;
-    theme: 
+    theme: 'dark' | 'light'
+
 }
