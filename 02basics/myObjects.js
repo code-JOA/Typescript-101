@@ -2,7 +2,7 @@
 // const User = {
 //     name: "joshua",
 //     email: "josh_billion@yahoo.com",
-//     isAvtive: true
+//     isActive: true
 // }
 exports.__esModule = true;
 var myUser = {
