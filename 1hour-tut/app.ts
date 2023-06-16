@@ -8,13 +8,13 @@ let agewithtype: number;
 
 agewithtype = 'eighteen'
 
-agewithtype = 18;
+agewithtype = 18
 
-let teststring : string =
-teststring = 'hello'
+let testString : string ;
+testString = "hello"
 
 let testBoolean: boolean ;
-testBoolean = 'true'
+testBoolean = true
 
 // union
 let testStringOrNumber: string | number
