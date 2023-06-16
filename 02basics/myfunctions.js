@@ -13,5 +13,5 @@ var loginUser = function (name, email, isPaid) {
 };
 var myValue = addTwo(5);
 getUpper("joshua");
-signUpUser("josuha", "josh_billion", false);
-loginUser("h", "h@h.com");
+signUpUser("joshua", "josh_billion@yahoo.com", false);
+loginUser("joshua", "josh_billion@yahoo.com");

@@ -1,6 +1,6 @@
 function addTwo(num: number): number{
      return num + 2
-    //return "hello"
+    //return "hello" this will trigger an error since its not a number.
 }
 
 function getUpper(val: string){
