@@ -36,18 +36,18 @@ type User = {
     name: string
     email: string
     isActive: boolean
-    credcardDetails?: number
+    creditcardDetails?: number
 }
 
 let myUser: User = {
     _id: "1245",
-    name: "h",
-    email: "h@h.com",
+    name: "j",
+    email: "j@j.com",
     isActive: false
 }
 
 type cardNumber = {
-    cardnumber: string
+    cardNumber: string
 }
 
 type cardDate = {
@@ -59,11 +59,8 @@ type cardDetails = cardNumber & cardDate & {
 }
 
 
-myUser.email = "h@gmail.com"
+myUser.email = "j@gmail.com"
 // myUser._id = "asa"
-
-
-
 
 
 
