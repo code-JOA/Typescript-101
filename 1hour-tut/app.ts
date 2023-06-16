@@ -109,7 +109,11 @@ let functionreturnString = () => {
     return "Hello"
 }
 
-let multiple = (num) => {
+let multiply = (num: number) => {
+    return num * 3
+}
+let multiple = (num: number): number => {
+    return num * 2;
 
 }
 
