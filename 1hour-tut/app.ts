@@ -163,5 +163,10 @@ type userType2 = {
     age: number;
     phone?: string;
     theme: 'dark' | 'light'
+}
 
+const userWithTheme: UserType2 = {
+    username: 'john',
+    age: 43,
+    theme: 'dark'
 }
