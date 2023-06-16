@@ -47,7 +47,7 @@ class SubUser extends User {
     }
 }
 
-const hitesh = new User("h@h.com","hitesh")
-// hitesh.name 
+const joshua = new User("h@h.com","joshua")
+// joshua.name 
 
-// hitesh.deleteToken()
+// joshua.deleteToken()
