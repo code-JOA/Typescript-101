@@ -13,9 +13,6 @@ newUser[1] = "hc.com"
 newUser.push(true)
 
 
-export {}
-
-
 
 
 
