@@ -54,3 +54,13 @@ user.username = 'jane'
 // user.age = 'eighteen' error since age is a number
 user.age = 23
 user.isAdmin = true
+
+user.phone = '+12345'
+
+let userObj : {
+    username: string
+    age: number
+    isAdmin: boolean
+}
+
+user
