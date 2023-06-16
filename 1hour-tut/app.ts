@@ -105,8 +105,12 @@ let sayHi = () => {
 }
 
 let functionreturnString = () => {
-    console.log("Hi")
+    // console.log("Hi")  note functions must always return something
     return "Hello"
+}
+
+let multiple = (num) => {
+
 }
 
 
