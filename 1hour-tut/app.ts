@@ -94,6 +94,10 @@ testAny = true
 testAny = {}
 testAny = [true]
 
-let testNanyArray = 
+let testAnyArray : any[] 
+
+testAnyArray= [1, 'two', false, []]
+
+
 
 
