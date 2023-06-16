@@ -16,14 +16,14 @@ testString = "hello"
 let testBoolean : boolean 
 testBoolean = true
 
-// union
+// union types
 let testStringOrNumber: string | number
 
 testStringOrNumber = 'joshua'
 testStringOrNumber = 18
 
 // array
-let names : ['josh', 'giulia' , 'killo']
+let names = ['josh', 'giulia' , 'killo']
 
 names.push('nicko')
 
