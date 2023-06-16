@@ -13,9 +13,9 @@ type Admin = {
     id: number
 }
 
-let hitesh: User | Admin = {name: "hitesh", id: 334}
+let joshua: User | Admin = {name: "joshua", id: 334}
 
-hitesh = {username: "hc", id: 334}
+joshua = {username: "jj", id: 334}
 
 // function getDbId(id: number | string){
 //     //making some API calls
