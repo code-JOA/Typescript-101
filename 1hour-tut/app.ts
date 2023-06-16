@@ -44,10 +44,12 @@ testStringNumberArray = [1, 'two', 3]
 
 // OBJECTS
 
-let user = [
+let user = {
     username : 'josh',
     age: 25,
     isAdmin: false
+}
 
-]
-
+user.username = 'jane'
+// user.age = 'eighteen' error since age is a number
+user.age = 23
