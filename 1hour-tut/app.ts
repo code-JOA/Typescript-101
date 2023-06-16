@@ -43,3 +43,11 @@ let testStringNumberArray : (string | number)[]
 testStringNumberArray = [1, 'two', 3]
 
 // OBJECTS
+
+let user = [
+    username : 'josh',
+    age: 25,
+    isAdmin: false
+
+]
+
