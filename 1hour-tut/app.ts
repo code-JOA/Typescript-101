@@ -65,4 +65,6 @@ let userObj : {
 
 userObj = {
     username: 'joshua',
+    age: 25,
+    isAdmin: true,
 }
