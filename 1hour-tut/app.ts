@@ -137,6 +137,8 @@ let func = (user: { username: string; age:number; phone?:string}) => [
     console.log(user.username), 
 ];
 
+//  type aliases
 
+type UserType
 
 
