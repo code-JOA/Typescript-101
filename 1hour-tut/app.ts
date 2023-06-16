@@ -16,4 +16,10 @@ teststring = 'hello'
 let testBoolean: boolean ;
 testBoolean = 'true'
 
-let testStringOr
+let testStringOrNumber: string | number
+
+testStringOrNumber = 'joshua'
+testStringOrNumber = 18
+
+// array
+let names = [''josh]
