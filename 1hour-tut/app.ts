@@ -55,12 +55,14 @@ user.username = 'jane'
 user.age = 23
 user.isAdmin = true
 
-user.phone = '+12345'
+// user.phone = '+12345'
 
 let userObj : {
-    username: string
-    age: number
-    isAdmin: boolean
+    username: string;
+    age: number;
+    isAdmin: boolean;
 }
 
-user
+userObj = {
+    username: 'joshua',
+}
