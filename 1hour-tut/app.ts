@@ -98,6 +98,15 @@ let testAnyArray : any[]
 
 testAnyArray= [1, 'two', false, []]
 
+//  functions
 
+let sayHi = () => {
+    console.log("Hi, welcome")
+}
+
+let functionreturnString = () => {
+    console.log("Hi")
+    return "Hello"
+}
 
 
