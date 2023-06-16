@@ -1,14 +1,12 @@
-let variable : 'hello'
+let variable = 'hello';
 
 variable = 'hi'
 
 let age = 18 
 
 let ageWithType :  number;
-
 // agewithtype = 'eighteen'
-
-agewithType = 18
+ageWithType = 18
 
 let testString : string 
 testString = "hello"
@@ -43,3 +41,5 @@ testNumberArray = [12,13,14]
 
 let testStringNumberArray : (string | number)[]
 testStringNumberArray = [1, 'two', 3]
+
+// OBJECTS
