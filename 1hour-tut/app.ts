@@ -128,10 +128,12 @@ let sum = (num1: number, num2: number): number => {
 }
 sum(2,4)
 
-let sum2 = (num1: number, num2: number, another: number => {
+let sum2 = (num1: number, num2: number, another?:number) => {
     return num1 + num2;
 }
-sum(2,4)
+sum2(2,4)
+
+let 
 
 
 
