@@ -110,11 +110,13 @@ let functionreturnString = () => {
 }
 
 let multiply = (num: number) => {
-    return num * 3
+    return num * 3;
 }
+
+//  same as the above. however we are specifying to return a number here. 
 let multiple = (num: number): number => {
     return num * 2;
-
 }
+
 
 
