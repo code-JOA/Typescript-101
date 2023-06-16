@@ -137,8 +137,13 @@ let func = (user: { username: string; age:number; phone?:string}) => [
     console.log(user.username), 
 ];
 
-//  type aliases
+//  type aliases we use this so we dont have to specify the Type as we 
+// did in the above functions
 
-type UserType
+type UserType = {
+    username: string;
+    age: number;
+    phone?: string;
+}
 
 
