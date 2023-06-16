@@ -32,3 +32,6 @@ numbers.push(92)
 
 // here we want an array with only strings
 let testStringArray : string[]
+
+testStringArray = [1,2,3]
+testStringArray = ['one', 'two' , 'three']
