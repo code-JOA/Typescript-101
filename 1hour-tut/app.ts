@@ -158,3 +158,9 @@ let write: myFunc = (num, str) => {
     console.log(num + "times" + str)
 }
 
+type userType2 = {
+    username: string;
+    age: number;
+    phone?: string;
+    theme: 
+}
