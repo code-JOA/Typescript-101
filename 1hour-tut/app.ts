@@ -53,3 +53,4 @@ let user = {
 user.username = 'jane'
 // user.age = 'eighteen' error since age is a number
 user.age = 23
+user.isAdmin = true
