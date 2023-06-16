@@ -38,4 +38,7 @@ testStringArray = ['one', 'two' , 'three']
 
 let testNumberArray : number[]
 // testNumberArray = [true] this will throw an error 
-testNumberArray =
+// testNumberArray = [true, 'hi' , 23]
+testNumberArray = [12,13,14]
+
+let testStringNumberArray : string | number []
