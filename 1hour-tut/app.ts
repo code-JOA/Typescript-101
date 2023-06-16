@@ -171,4 +171,9 @@ const userWithTheme: UserType2 = {
     theme: 'dark'
 }
 
-//  
+//  interfaces
+
+interface IUser{
+    username: string;
+    email: string;age
+}
