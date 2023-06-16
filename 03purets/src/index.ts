@@ -12,7 +12,7 @@ class User {
 
     protected _courseCount = 1
     
-    readonly city: string = "Jaipur"
+    readonly city: string = "London"
     constructor(
         public email: string, 
         public name: string,
