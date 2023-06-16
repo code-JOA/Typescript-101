@@ -5,7 +5,7 @@ variable = 'hi'
 let age = 18 
 
 let ageWithType :  number;
-// agewithtype = 'eighteen'
+// ageWithType = 'eighteen'
 ageWithType = 18
 
 let testString : string 
@@ -146,4 +146,7 @@ type UserType = {
     phone?: string;
 }
 
+let betterFunc = (user:UserType) => {
+    console.log(user.username)
+}
 
