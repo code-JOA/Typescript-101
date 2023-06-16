@@ -12,10 +12,10 @@ function signUpUser(name: string, email: string, isPaid: boolean){}
 let loginUser = (name: string, email: string, isPaid: boolean = false) => {}
 
 let myValue = addTwo(5)
-getUpper("hitesh")
+getUpper("joshua")
 
-signUpUser("hitesh", "hitesh@lco.dev", false)
-loginUser("h", "h@h.com")
+signUpUser("joshua", "josh_billion@yahoo.com", false);
+loginUser("joshua", "josh_billion@yahoo.com");
 
 // function getValue(myVal: number): boolean{
 //     if (myVal > 5) {
