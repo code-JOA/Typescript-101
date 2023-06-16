@@ -57,6 +57,7 @@ user.isAdmin = true
 
 // user.phone = '+12345'
 
+//  here we are specifically listing what we want
 let userObj : {
     username: string;
     age: number;
@@ -74,5 +75,5 @@ let userObj2: {
     age: number;
     isAdmin: boolean;
   // here we want to say phone is not required
-  phone?:string
+    phone?:string
 };
