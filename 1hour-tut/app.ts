@@ -216,6 +216,15 @@ interface IPost{
     extra: IAuthor[] | ICategory[];
 }
 
+interface IPostBetter {
+    id: number;
+    title: string;
+    desc: string;
+    extra: T[]
+}
+
+const testMe: IPostBetter<String>= {}
+
 
 
 
