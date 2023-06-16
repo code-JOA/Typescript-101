@@ -6,6 +6,6 @@ console.log(greetings);
 // number
 var userId = 334455.3;
 userId.toFixed();
-// userId = "joshua"
+// userId = "joshua" user id needs to be a number
 // boolean
 var isLoggedIn = false;
