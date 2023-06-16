@@ -22,4 +22,7 @@ testStringOrNumber = 'joshua'
 testStringOrNumber = 18
 
 // array
-let names = [''josh]
+let names = ['josh', 'giulia' , 'killo']
+
+names.push('nicko')
+
