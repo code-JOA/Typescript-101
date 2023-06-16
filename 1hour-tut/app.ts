@@ -1,10 +1,10 @@
-let variable = 'hello'
+let variable : 'hello'
 
 variable = 'hi'
 
 let age = 18 
 
-let agewithtype: number;
+let agewithtype :  number;
 
 agewithtype = 'eighteen'
 
@@ -13,7 +13,7 @@ agewithtype = 18
 let testString : string ;
 testString = "hello"
 
-let testBoolean: boolean ;
+let testBoolean : boolean ;
 testBoolean = true
 
 // union
@@ -23,7 +23,7 @@ testStringOrNumber = 'joshua'
 testStringOrNumber = 18
 
 // array
-let names = ['josh', 'giulia' , 'killo']
+let names : ['josh', 'giulia' , 'killo']
 
 names.push('nicko')
 
