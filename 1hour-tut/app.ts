@@ -87,4 +87,13 @@ userObj2={
 
 
 //  Any
-let testAny: any
+let testAny: any;
+testAny = 12
+testAny= 'Hello'
+testAny = true
+testAny = {}
+testAny = [true]
+
+let testNanyArray = 
+
+
