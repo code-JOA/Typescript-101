@@ -68,3 +68,9 @@ userObj = {
     age: 25,
     isAdmin: true,
 }
+
+let userObj: {
+  username: string;
+  age: number;
+  isAdmin: boolean;
+};
