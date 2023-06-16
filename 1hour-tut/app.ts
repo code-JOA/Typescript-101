@@ -170,3 +170,4 @@ const userWithTheme: UserType2 = {
     age: 43,
     theme: 'dark'
 }
+
