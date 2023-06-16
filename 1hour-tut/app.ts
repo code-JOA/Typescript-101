@@ -83,4 +83,8 @@ userObj2={
     age: 23;
     isAdmin: false;
     phone: '+123456';
-}
+};
+
+
+//  Any
+let testAny: any
