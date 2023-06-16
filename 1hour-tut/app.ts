@@ -77,3 +77,8 @@ let userObj2: {
   // here we want to say phone is not required
     phone?:string
 };
+
+userObj2={
+    username: 'giulia';
+    
+}
