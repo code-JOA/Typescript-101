@@ -8,4 +8,12 @@ let agewithtype: number;
 
 agewithtype = 'eighteen'
 
-agewithtype
+agewithtype = 18;
+
+let teststring : string =
+teststring = 'hello'
+
+let testBoolean: boolean ;
+testBoolean = 'true'
+
+let testStringOr
