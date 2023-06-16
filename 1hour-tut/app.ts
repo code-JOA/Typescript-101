@@ -133,7 +133,9 @@ let sum2 = (num1: number, num2: number, another?:number) => {
 }
 sum2(2,4)
 
-let func = (user:{username: string, age:number, phone?:string})
+let func = (user:{username: string, age:number, phone?:string}) => [
+    console.log(user.username), 
+]
 
 
 
