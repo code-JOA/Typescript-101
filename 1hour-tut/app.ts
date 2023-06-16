@@ -175,5 +175,8 @@ const userWithTheme: UserType2 = {
 
 interface IUser{
     username: string;
-    email: string;age
+    email: string;
+    age: number
 }
+
+interface IEmployee extends 
