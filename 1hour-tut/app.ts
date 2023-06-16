@@ -1,3 +1,11 @@
 let variable = 'hello'
 
-variable = 
+variable = 'hi'
+
+let age = 18 
+
+let agewithtype: number;
+
+agewithtype = 'eighteen'
+
+agewithtype
