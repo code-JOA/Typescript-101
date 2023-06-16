@@ -16,6 +16,7 @@ teststring = 'hello'
 let testBoolean: boolean ;
 testBoolean = 'true'
 
+// union
 let testStringOrNumber: string | number
 
 testStringOrNumber = 'joshua'
@@ -26,3 +27,8 @@ let names = ['josh', 'giulia' , 'killo']
 
 names.push('nicko')
 
+let numbers = [12, 13,14]
+numbers.push(92)
+
+// here we want an array with only strings
+let testStringArray : string[]
