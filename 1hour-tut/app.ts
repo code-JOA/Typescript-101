@@ -237,11 +237,11 @@ interface IPostEventBetter <T extends object>{
     extra: ["str","str2"],
 }
 
-const testMe2: IPostBetter<String> = {
+const testMe2: IPostBetter<{id:number, username:string}> = {
     id: 1,
     title: "post title",
     desc: "post desc",
-    extra: ["str","str2"],
+    extra: [{id:1, username:"josh"}],
 };
 
 
