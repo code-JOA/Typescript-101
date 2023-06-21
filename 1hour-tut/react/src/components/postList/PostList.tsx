@@ -43,7 +43,7 @@ asyn function getData() {
 const PostList = async () => {
   return (
     <div className="postList">
-      {/* <PostCard title="post title" desc="post desc" /> */}
+      {/* <PostCard title="post title" body="post desc" /> */}
       {data.map((post) => ())}
     </div>
   );
