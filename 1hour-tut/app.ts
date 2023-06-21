@@ -225,10 +225,14 @@ interface IPostBetter<T> {
 
 const testMe: IPostBetter<String> = {
     id: 1,
-    title: "post title"
-    desc: "post desc"
+    title: "post title",
+    desc: "post desc",
     extra: ["str","str2"],
-}
+};
+
+interface I
+
+
 
 
 
