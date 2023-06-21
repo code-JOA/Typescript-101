@@ -29,6 +29,8 @@
 
 import React from "react";
 
-export default function PostList() {
+const PostList = () => {
   return <div>PostList</div>;
-}
+};
+
+export default PostList;
