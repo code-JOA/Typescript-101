@@ -230,7 +230,9 @@ const testMe: IPostBetter<String> = {
     extra: ["str","str2"],
 };
 
-interface I
+interface IPostEventBetter <T extends object>{
+    
+}
 
 
 
