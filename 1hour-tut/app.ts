@@ -78,7 +78,7 @@ let userObj2: {
     phone?:string
 };
 
-userObj2={
+userObj2 = {
     username: 'giulia';
     age: 23;
     isAdmin: false;
