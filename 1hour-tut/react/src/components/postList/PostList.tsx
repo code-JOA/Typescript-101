@@ -47,7 +47,7 @@ const PostList = async () => {
     <div className="postList">
       {/* <PostCard title="post title" body="post desc" /> */}
 
-      {data.map((post: {title: string, body: string}) => (
+      {data.map((post: {id: number; title: string, body: string}) => (
         <PostCard key={post.id} {...post} />
       ))}
     </div>
