@@ -28,9 +28,14 @@
 // export default PostList;
 
 import React from "react";
+import PostCard from "../postCard/PostCard";
 
-const PostList = () => {
-  return <div>PostList</div>;
+const PostList = async () => {
+  return (
+    <div className="postList">
+      <PostCard title="" />
+    </div>
+  );
 };
 
 export default PostList;
