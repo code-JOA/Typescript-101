@@ -231,8 +231,18 @@ const testMe: IPostBetter<String> = {
 };
 
 interface IPostEventBetter <T extends object>{
-    
+    id: 1,
+    title: "post title",
+    desc: "post desc",
+    extra: ["str","str2"],
 }
+
+const testMe2: IPostBetter<String> = {
+    id: 1,
+    title: "post title",
+    desc: "post desc",
+    extra: ["str","str2"],
+};
 
 
 
