@@ -33,7 +33,8 @@ import PostCard from "../postCard/PostCard";
 const PostList = async () => {
   return (
     <div className="postList">
-      <PostCard title="" />
+      {/* <PostCard title="post title" desc="post desc" /> */}
+      {data.map((post) => ())}
     </div>
   );
 };
