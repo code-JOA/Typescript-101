@@ -216,7 +216,7 @@ interface IPost{
     extra: IAuthor[] | ICategory[];
 }
 
-interface IPostBetter {
+interface IPostBetter<T> {
     id: number;
     title: string;
     desc: string;
