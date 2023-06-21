@@ -255,8 +255,9 @@ const testMe4: IPostBetter<ICategory>={
     id: 1,
     title: "post title",
     desc: "post desc",
-    extra: [{id:1, username:"josh"}],
+    extra: [{id:1, title:'cat'}],
 }
+
 
 
 
