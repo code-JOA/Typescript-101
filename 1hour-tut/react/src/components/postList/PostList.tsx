@@ -29,8 +29,9 @@
 
 import React from "react";
 import PostCard from "../postCard/PostCard";
+import { PostProps } from "@/types/types";
 
-asyn function getData() {
+async function getData() {
   const res = await fetch("https://jsonplaceholder.typicode.com/posts");
 
   if (!res.ok) {
@@ -41,13 +42,13 @@ asyn function getData() {
 }
 
 const PostList = async () => {
-
-  const data = await getData()
+  const data = await getData();
   return (
     <div className="postList">
       {/* <PostCard title="post title" body="post desc" /> */}
 
-      {data.map((post: {id: number; title: string, body: string}) => (
+      {/* {data.map((post: {id: number; title: string, body: string}) => ( */}
+      {data.map((post: PostProps) => (
         <PostCard key={post.id} {...post} />
       ))}
     </div>
